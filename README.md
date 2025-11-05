@@ -88,7 +88,26 @@ dotnet run
 6. **دسترسی به برنامه**
 
 ```bash
-مرورگر: `https://localhost:7000`
+مرورگر: `https://localhost:7015`
 ```
 
+## 📁 ساختار پروژه
 
+```text
+SmartTourismSystem/
+├── Pages/                 # صفحات Razor
+│   ├── Index.cshtml      # صفحه اصلی
+│   └── Shared/           # Layoutها و partialها
+├── Models/               # مدل‌های دیتابیس
+│   ├── User.cs
+│   ├── TouristPlace.cs
+│   ├── AIChat.cs
+│   └── ...
+├── Services/             # سرویس‌های business logic
+│   ├── GeminiService.cs
+│   └── SmartTourismService.cs
+│   └── ApplicationDbContext.cs # Context و Configuration
+└── wwwroot/              # فایل‌های استاتیک
+    ├── css/
+    └── js/
+```
