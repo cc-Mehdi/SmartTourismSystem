@@ -1,0 +1,111 @@
+﻿@page
+@model SmartTourismSystem.Pages.IndexModel
+@{
+    ViewData["Title"] = "سامانه هوشمند گردشگری";
+}
+
+<div class="container mt-4">
+    <!-- هدر -->
+    <div class="text-center mb-5">
+        <h1 class="display-4 text-primary">سامانه هوشمند گردشگری</h1>
+        <p class="lead">پیشنهادات هوشمند مقاصد گردشگری بر اساس علاقمندی‌های شما</p>
+    </div>
+
+    <!-- جستجو -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form method="post" asp-page-handler="Search">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <input type="text" name="searchTerm" class="form-control" placeholder="جستجوی مکان..." value="@Model.SearchTerm">
+                    </div>
+                    <div class="col-md-3">
+                        <select name="city" class="form-select">
+                            <option value="">همه شهرها</option>
+                            <option value="تهران">تهران</option>
+                            <option value="مشهد">مشهد</option>
+                            <option value="لنگرود">لنگرود</option>
+                            <option value="کرج">کرج</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select name="category" class="form-select">
+                            <option value="">همه دسته‌بندی‌ها</option>
+                            <option value="تاریخی">تاریخی و فرهنگی</option>
+                            <option value="طبیعت">طبیعت گردی</option>
+                            <option value="ساحلی">ساحلی و دریا</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100">جستجو</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- پیشنهادات هوشمند و بهترین مکان‌ها (همانند قبل) -->
+    <!-- ... -->
+    <!-- چت هوشمند -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+                    <h4 class="mb-0">دستیار هوشمند گردشگری (Gemini AI)</h4>
+                    <span class="badge bg-success">آنلاین</span>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-page-handler="Chat" id="chatForm">
+                        <div class="mb-3">
+                            <label for="userMessage" class="form-label">سوال خود را بپرسید:</label>
+                            <textarea class="form-control" id="userMessage" name="userMessage" rows="3"
+                                      placeholder="مثلاً: مکان تاریخی خوب در اصفهان پیشنهاد می‌کنید؟ یا برای سفر به شمال چه منطقه‌ای مناسب است؟"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info" id="submitBtn">
+                            @if (Model.IsAIResponding)
+                            {
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                <span>در حال پردازش...</span>
+                            }
+                            else
+                            {
+                                <span>ارسال سوال به AI</span>
+                            }
+                        </button>
+                    </form>
+
+                    @if (!string.IsNullOrEmpty(Model.ChatResponse))
+                    {
+                        <div class="mt-4 p-3 bg-light rounded border">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <strong class="text-info">پاسخ دستیار هوشمند:</strong>
+                                <small class="text-muted">@DateTime.Now.ToString("HH:mm")</small>
+                            </div>
+                            <p class="mb-0" style="white-space: pre-line;">@Model.ChatResponse</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // غیرفعال کردن دکمه هنگام ارسال فرم
+        document.getElementById('chatForm').addEventListener('submit', function() {
+            var submitBtn = document.getElementById('submitBtn');
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> در حال پردازش...';
+        });
+
+        // فعال کردن مجدد دکمه اگر صفحه رفرش شد
+        window.onload = function() {
+            var submitBtn = document.getElementById('submitBtn');
+            if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<span>ارسال سوال به AI</span>';
+            }
+        };
+    </script>
+}

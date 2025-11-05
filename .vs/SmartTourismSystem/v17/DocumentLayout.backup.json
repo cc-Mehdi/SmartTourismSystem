@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\services\\smarttourismservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\services\\smarttourismservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\models\\aichat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\models\\aichat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|c:\\users\\mehdi\\desktop\\smarttourismsystem\\smarttourismsystem\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D738C4EA-31CF-4BF3-9512-78217E285E6A}|SmartTourismSystem\\SmartTourismSystem.csproj|solutionrelative:smarttourismsystem\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SmartTourismSystem\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T12:44:11.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Aichat.cs",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Models\\Aichat.cs",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\Models\\Aichat.cs",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Models\\Aichat.cs",
+              "RelativeToolTip": "SmartTourismSystem\\Models\\Aichat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:38:24.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\appsettings.json",
+              "RelativeToolTip": "SmartTourismSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T12:05:41.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Program.cs",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Program.cs",
+              "RelativeToolTip": "SmartTourismSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:02:13.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OpenAIService.cs",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Services\\OpenAIService.cs",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\Services\\OpenAIService.cs",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Services\\OpenAIService.cs",
+              "RelativeToolTip": "SmartTourismSystem\\Services\\OpenAIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:52:20.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmartTourismService.cs",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Services\\SmartTourismService.cs",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\Services\\SmartTourismService.cs",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Services\\SmartTourismService.cs",
+              "RelativeToolTip": "SmartTourismSystem\\Services\\SmartTourismService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:33:52.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "SmartTourismSystem\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T11:32:00.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmartTourismSystem\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mehdi\\Desktop\\SmartTourismSystem\\SmartTourismSystem\\Pages\\Index.cshtml",
+              "RelativeToolTip": "SmartTourismSystem\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T11:31:46.004Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
