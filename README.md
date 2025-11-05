@@ -45,3 +45,28 @@
 ```bash
 git clone https://github.com/your-username/SmartTourismSystem.git
 cd SmartTourismSystem
+```
+2. **تنظیم connection string**
+```json
+// appsettings.json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=SmartTourismDB;Trusted_Connection=true;TrustServerCertificate=true;"
+  }
+}
+```
+
+
+3. **دریافت API Key از Google AI Studio**
+
+- به [Google AI Studio](https://makersuite.google.com/app/apikey) بروید
+- مقدار API Key جدید ایجاد کنید
+- در فایل appsettings.json قرار دهید:
+
+```json
+{
+  "Gemini": {
+    "ApiKey": "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  }
+}
+```
