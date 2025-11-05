@@ -123,11 +123,13 @@ SmartTourismSystem/
 ## 🤝 مشارکت در پروژه
 
 1. ابتدا Fork کنید
-
 2. سپس Branch ایجاد کنید (git checkout -b feature/AmazingFeature)
-
 3. سپس Commit کنید (git commit -m 'Add some AmazingFeature')
-
 4. پس از اتمام کار Push کنید (git push origin feature/AmazingFeature)
-
 5. و در نهایت Pull Request ایجاد کنید
+---
+### Mehdi Gholami : 
+> Gmail [cc.MehdiGholami@gmail.com](cc.MehdiGholami@gmail.com) &nbsp;&middot;&nbsp;
+> GitHub [@cc-Mehdi](https://github.com/cc-Mehdi) &nbsp;&middot;&nbsp;
+> Linkedin [@Mehdi_Gholami](https://www.linkedin.com/in/mehdi-gholami-6360b7264/)
+
