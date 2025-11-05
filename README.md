@@ -7,6 +7,13 @@
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-red)
 ![AI](https://img.shields.io/badge/AI-Gemini%20API-green)
 
+
+## 📷 تصاویر
+
+<img width="1435" height="983" alt="image" src="https://github.com/user-attachments/assets/511a35e0-4be1-4010-99dc-c167a446a99a" />
+
+
+
 ## ✨ ویژگی‌های اصلی
 
 - 🤖 **دستیار هوشمند گردشگری** - مشاوره آنلاین با Gemini AI
@@ -111,3 +118,16 @@ SmartTourismSystem/
     ├── css/
     └── js/
 ```
+
+
+## 🤝 مشارکت در پروژه
+
+1. ابتدا Fork کنید
+
+2. سپس Branch ایجاد کنید (git checkout -b feature/AmazingFeature)
+
+3. سپس Commit کنید (git commit -m 'Add some AmazingFeature')
+
+4. پس از اتمام کار Push کنید (git push origin feature/AmazingFeature)
+
+5. و در نهایت Pull Request ایجاد کنید
