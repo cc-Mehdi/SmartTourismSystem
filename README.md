@@ -70,3 +70,25 @@ cd SmartTourismSystem
   }
 }
 ```
+
+
+4. **اجرای Migrationها و ایجاد دیتابیس**
+
+```bash
+dotnet ef database update
+```
+
+
+5. **اجرای پروژه**
+
+```bash
+dotnet run
+```
+
+6. **دسترسی به برنامه**
+
+```bash
+مرورگر: `https://localhost:7000`
+```
+
+
